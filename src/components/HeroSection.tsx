@@ -94,12 +94,12 @@ export const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16"
           >
-            <Link to="/explore">
+            {/* <Link to="/explore"> */}
               <Button variant="hero" size="xl">
                 <MapPin className="w-5 h-5" />
                 Explore Now
               </Button>
-            </Link>
+            {/* </Link> */}
             <Link to="/signup">
               <Button variant="hero-outline" size="xl">
                 Join the Community
