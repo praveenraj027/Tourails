@@ -113,13 +113,13 @@ export const Navbar = () => {
         </div>
 
         {/* Mobile Navigation */}
-        <motion.div
+        {/* <motion.div
           initial={false}
           animate={{ height: isOpen ? "auto" : 0, opacity: isOpen ? 1 : 0 }}
           transition={{ duration: 0.3 }}
           className="md:hidden overflow-hidden"
         >
-          <div className="py-4 space-y-4">
+          <div className="py-4 space-y-4 bg-slate-50">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -144,7 +144,7 @@ export const Navbar = () => {
               </Link>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </motion.nav>
   );
