@@ -26,30 +26,30 @@ import { Input } from "@/components/ui/input";
 const navItems = [
   { icon: Home, label: "Dashboard", href: "/dashboard" },
   { icon: Compass, label: "Explore", href: "/explore" },
-  { icon: Users, label: "Community", href: "/community" },
-  { icon: MessageCircle, label: "Messages", href: "/messages" },
-  { icon: Heart, label: "Saved", href: "/saved" },
-  { icon: Shield, label: "Safety", href: "/safety" },
-  { icon: Settings, label: "Settings", href: "/settings" },
+  // { icon: Users, label: "Community", href: "/community" },
+  // { icon: MessageCircle, label: "Messages", href: "/messages" },
+  // { icon: Heart, label: "Saved", href: "/saved" },
+  // { icon: Shield, label: "Safety", href: "/safety" },
+  // { icon: Settings, label: "Settings", href: "/settings" },
 ];
 
 const stats = [
-  { label: "Countries Visited", value: "12", icon: MapPin, change: "+2" },
-  { label: "Trips Planned", value: "5", icon: Calendar, change: "+1" },
-  { label: "Connections", value: "128", icon: Users, change: "+15" },
-  { label: "Stories Shared", value: "47", icon: TrendingUp, change: "+8" },
+  // { label: "Countries Visited", value: "12", icon: MapPin, change: "+2" },
+  // { label: "Trips Planned", value: "5", icon: Calendar, change: "+1" },
+  // { label: "Connections", value: "128", icon: Users, change: "+15" },
+  // { label: "Stories Shared", value: "47", icon: TrendingUp, change: "+8" },
 ];
 
 const upcomingTrips = [
-  { destination: "Bali, Indonesia", date: "Mar 15 - Mar 28", image: "🏝️" },
-  { destination: "Tokyo, Japan", date: "May 1 - May 14", image: "🗼" },
-  { destination: "Paris, France", date: "Jul 10 - Jul 20", image: "🗼" },
+  // { destination: "Bali, Indonesia", date: "Mar 15 - Mar 28", image: "🏝️" },
+  // { destination: "Tokyo, Japan", date: "May 1 - May 14", image: "🗼" },
+  // { destination: "Paris, France", date: "Jul 10 - Jul 20", image: "🗼" },
 ];
 
 const recentActivity = [
-  { type: "connection", user: "Sarah Chen", action: "accepted your connection request", time: "2h ago" },
-  { type: "like", user: "Mike Johnson", action: "liked your story from Santorini", time: "5h ago" },
-  { type: "comment", user: "Emma Wilson", action: "commented on your Bali itinerary", time: "1d ago" },
+  // { type: "connection", user: "Sarah Chen", action: "accepted your connection request", time: "2h ago" },
+  // { type: "like", user: "Mike Johnson", action: "liked your story from Santorini", time: "5h ago" },
+  // { type: "comment", user: "Emma Wilson", action: "commented on your Bali itinerary", time: "1d ago" },
 ];
 
 const Dashboard = () => {
